@@ -1,0 +1,6 @@
+<widget>
+  <widgetClass>tooltwist.mustache.widgets.TemplateWidget</widgetClass>
+  <idWithinRootWidget>0</idWithinRootWidget>
+  <label>template</label>
+  <description>Mustache Template</description>
+</widget>
