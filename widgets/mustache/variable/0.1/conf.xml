@@ -1,0 +1,6 @@
+<widget>
+  <widgetClass>tooltwist.mustache.widgets.VariableWidget</widgetClass>
+  <idWithinRootWidget>0</idWithinRootWidget>
+  <label>variable</label>
+  <description>Mustache variable</description>
+</widget>

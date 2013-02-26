@@ -1,0 +1,6 @@
+<widget>
+  <widgetClass>tooltwist.mustache.widgets.SectionWidget</widgetClass>
+  <idWithinRootWidget>0</idWithinRootWidget>
+  <label>section</label>
+  <description>Mustache section</description>
+</widget>

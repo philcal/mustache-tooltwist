@@ -3,5 +3,17 @@
     <wb-module deploy-name="mustache">
         <wb-resource deploy-path="/" source-path="/src" tag="defaultRootSource"/>
         <wb-resource deploy-path="/META-INF/resources" source-path="/WebContent"/>
+        <dependent-module archiveName="xdata.jar" deploy-path="/" handle="module:/resource/xdata/xdata">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ttWbd.jar" deploy-path="/" handle="module:/resource/ttWbd/ttWbd">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ttStd.jar" deploy-path="/" handle="module:/resource/ttStd/ttStd">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tooltwist.jar" deploy-path="/" handle="module:/resource/tooltwist/tooltwist">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
     </wb-module>
 </project-modules>

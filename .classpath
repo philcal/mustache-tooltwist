@@ -16,10 +16,9 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/tooltwist"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/ttStd"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/ttWbd"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/xdata"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

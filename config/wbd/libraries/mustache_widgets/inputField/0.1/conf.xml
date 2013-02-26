@@ -1,0 +1,6 @@
+<widget>
+  <widgetClass>tooltwist.mustache.widgets.InputFieldWidget</widgetClass>
+  <idWithinRootWidget>0</idWithinRootWidget>
+  <label>inputField</label>
+  <description>Input field</description>
+</widget>

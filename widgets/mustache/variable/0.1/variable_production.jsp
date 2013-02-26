@@ -13,20 +13,20 @@
 <%@page import="tooltwist.wbd.WbdProductionHelper"%>
 <%@page import="com.dinaa.data.XData"%>
 <%--
-<%@page import="tooltwist.mustache.productionHelpers.TemplateProductionHelper"%>
+<%@page import="tooltwist.mustache.productionHelpers.VariableProductionHelper"%>
 --%>
 <%@page import="tooltwist.misc.JspHelper"%>
 <%@page import="tooltwist.ecommerce.AutomaticUrlParametersMode"%>
 <%@page import="tooltwist.ecommerce.RoutingUIM"%>
 <%
 	// Get the production helper for this widget
-//	TemplateProductionHelper h = (TemplateProductionHelper) helper;
+//	VariableProductionHelper h = (VariableProductionHelper) helper;
 //	XData data = h.getData(jh);
 %>
 
 <!-- ********** INSERT HTML HERE ********** -->
-<div %%idDefinition%% class="Template" style="width:200px; border-style:solid; border-width:1px; text-align: center;">
-	template
+<div %%idDefinition%% class="Variable" style="width:200px; border-style:solid; border-width:1px; text-align: center;">
+	variable
 
 	<!-- Display an image 
 	<img src="%%URL(mustache/images/myImage.png)%%"/>
